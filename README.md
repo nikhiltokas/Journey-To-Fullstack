@@ -1,4 +1,4 @@
-#Journey to Full Stack Development
+# Journey to Full Stack Development
 
 This is my first ever repository!
 And it took me more than an hour just to set it up!
