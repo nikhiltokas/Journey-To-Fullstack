@@ -1,5 +1,5 @@
 // Chapter 2
-// Variables
+// Variables & Data
 
 // As previously explained variables are containers that stores some value.
 //Example
@@ -24,4 +24,36 @@ console.log(bookName) //Expected output: The Alchemist
 let fact = true; // Here we stored a boolean
 console.log(fact) //Expected output: true
 
-//Will learn more stuff tomorrow.
+
+
+// Lesson 2 - var, let and const in JavaScript
+
+// var
+// var is globally scoped
+// var can be updated
+// var can be re-declared
+
+// let
+// let is block scoped
+// let can be updated
+// let CAANOT be re-declared
+
+// const
+// const is block scoped
+// const can NEITHER be updated NOR be re-declared
+
+// Example 1
+// let
+let yourAge = 69;
+console.log (yourAge) //69
+
+yourAge = yourAge + 1 // here we updated the "let" variable yourAge
+console.log (yourAge) //Expected output: 70
+
+// Example 2
+// const
+const myAge = 28;
+console.log(myAge) //28
+
+myAge = myAge + 1 // here we updated the "const" variable myAge
+console.log (myAge) //Expected output: ERROR
