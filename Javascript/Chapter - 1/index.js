@@ -1,3 +1,4 @@
+// Chapter 1
 // Introduction to JavaScript.
 // JavaScrip is a programming langugage used to communicate with your computer.
 
@@ -10,11 +11,12 @@
 // 3. Booleans (true or false)
 // Etc.
 
-//Example:
+// CONSOLE dot LOG
+// console.log() is a built-in function in JavaScript that prints or logs whatever is inside the parentheses to the browser’s console.
 
+//Example:
 let studentName = "ABCDEFG"; // Here "let" is used to declare the variable "studentName" and stores a string "ABCDEFG" in it.
 console.log(studentName) // Printing the value of the variable to the console. 
-
 //Expected output: ABCDEFG
 
 
@@ -39,6 +41,4 @@ console.log(studentName) // Printing the value of the variable to the console.
 
 let firstName = "First";
 let lastName = "Script";
-console.log(firstName + lastName)
-
-//Expected output: FirstScript
+console.log(firstName + lastName) //Expected output: FirstScript
