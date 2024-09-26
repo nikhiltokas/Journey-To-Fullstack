@@ -7,6 +7,8 @@
 // Syntax: let variableName = [value1, value2, value3, etc];
 // Example: let myArray = [1, 2, 3, 4, 5, true, "Hello World"];
 
+// Arrays are zero-indexed, meaning the first element is at index 0.
+
 
 // Example:
 const shoesInventory = ["Nike", "Adidas", "Reebok", "Puma", "Converse"];
