@@ -1,12 +1,11 @@
 // Chapter 9
 // Arrays
-// Arrays are a special type of object in JavaScript.
-// They are used to hold more than one value.
-// You can even store differnt kinds of values.
+// Arrays are special objects in JavaScript that hold multiple values in a single variable.
+// You can store different types of values (numbers, strings, booleans, etc.) in the same array.
 
-// Arrays use square brackets.
-// Syntax: variableName = [value1, value2, value3, etc]
-// Example: let myVariable = [1, 2, 3, 4, 5, true, "Hello World"]
+// Arrays use square brackets to define a list of values.
+// Syntax: let variableName = [value1, value2, value3, etc];
+// Example: let myArray = [1, 2, 3, 4, 5, true, "Hello World"];
 
 
 // Example:
