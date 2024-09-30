@@ -7,24 +7,24 @@ let variableX = [4, 10, 24, 38];
 
 // 1. For Loop: (Classic)
 // The classical way to loop through an array using an index.
-for(let i=0; i<variableX.length; i++){
+for (let i = 0; i < variableX.length; i++) {
     console.log(variableX[i])                   // Output: 4, 10, 24, 38
 }
 
 
 // 2. For...of Loop:
 // This loop iterates over the *values* of the array, making it more readable than the classical for loop.
-for (let i of variableX){
+for (let i of variableX) {
     console.log(i)                              // Output: 4, 10, 24, 38 (the values directly)
 }
 
 
 // 3. for...in Loop (Not Recommended for Arrays)
 // This loop iterates over the *indexes* (not values) of an array, and it's generally used for objects.
-for (let i in variableX){
+for (let i in variableX) {
     console.log(i)                              // Output: 0, 1, 2, 3 (prints the indexes)
 }
-for (let i in variableX){
+for (let i in variableX) {
     console.log(variableX[i])                   // Output: 4, 10, 24, 38 (prints each element using the index)
 }
 
