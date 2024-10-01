@@ -1,4 +1,4 @@
-// Chapter 11
+// Chapter 13
 // Stack And Heap Memory
 // JavaScript engines store their data in two places:
 // Stack Memory and Heap Memory.

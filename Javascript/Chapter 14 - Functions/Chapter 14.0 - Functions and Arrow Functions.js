@@ -1,4 +1,4 @@
-// Chapter 13: Functions
+// Chapter 14: Functions
 // A function is a block of code designed to perform a specific task. Functions can be called (invoked) whenever needed.
 
 // JavaScript already has built-in functions like:

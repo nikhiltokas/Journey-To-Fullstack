@@ -1,4 +1,5 @@
-// Array Iteration and Methods
+// Chapter 11
+// Array with Loops (Iteration and Methods)
 // JavaScript provides multiple ways to iterate through arrays, allowing you to access, modify, or manipulate array elements efficiently.
 
 
