@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: auto;
+    text-align: center;
+}
