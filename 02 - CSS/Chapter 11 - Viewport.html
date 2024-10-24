@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>viewport</title>
+    <style>
+      * {
+        margin: 0;
+      }
+
+      .box {
+        display: flex;
+        box-sizing: border-box;
+        border-bottom: 2px solid black;
+        width: 10vw;
+        margin: auto;
+      }
+
+      .navbar {
+        box-sizing: border-box;
+        width: auto;
+        height: 40px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+      }
+
+      .navbar ul {
+        overflow: auto;
+      }
+
+      .navbar li {
+        float: left;
+        list-style: none;
+        color: #171717;
+      }
+
+      .navbar li a {
+        list-style: none;
+        font-size: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="box">
+      <nav class="navbar">
+        <ul>
+          <li><a class="btn" href="#"> Home </a></li>
+          <li><a class="btn" href="#"> Beat </a></li>
+          <li><a class="btn" href="#"> Pulse </a></li>
+          <li><a class="btn" href="#"> Challenge </a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

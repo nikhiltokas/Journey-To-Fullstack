@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      /* This is Class Selector */
+      .cs1 {
+        color: rgb(129, 89, 240);
+        background-color: rgb(166, 255, 0);
+      }
+      /* This is ID Selctor */
+      #is1 {
+        color: rgb(157, 240, 89);
+        background-color: rgb(212, 0, 255);
+      }
+      /* This is grouping selector */
+      span,
+      p {
+        color: rgb(240, 89, 139);
+        background-color: rgb(255, 238, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <h2>There are 4 kinds of selectors in CSS</h2>
+    <ol>
+      <li>CSS Element Selector</li>
+      <li>CSS ID Selectors</li>
+      <li>CSS Class Selectors</li>
+      <li>CSS Grouping Selectors</li>
+    </ol>
+    <ul>
+      <li>p tag is element selector</li>
+      <li># pound is ID Selector</li>
+      <li>. dot is Class Selector</li>
+      <li>p, span, a is grouping selector</li>
+    </ul>
+    <p class="cs1">A simple line to demonstrate CSS class selector</p>
+    <p id="is1">A simple line to demonstrate CSS ID selector</p>
+    <p>A simple line to demonstrate Grouping selector</p>
+    <span>A simple line to demonstrate Grouping selector</span>
+  </body>
+</html>

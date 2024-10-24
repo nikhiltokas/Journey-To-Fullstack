@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      .ramesh {
+        background-color: burlywood;
+        margin: 18px;
+        box-sizing: border-box;
+        border: solid 10px greenyellow;
+        border-radius: 24px;
+        min-width: 300px;
+        min-height: 300px;
+        padding: 18px;
+        /* padding can be given as trbl (clockwise) */
+        /* or you can give padding also as y(top/bottom) x(left/right) */
+      }
+
+      .boy {
+        margin: 0px;
+        box-sizing: border-box;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ramesh">
+      <h2 class="boy">Box Model - Margin, Border, Padding, Element</h2>
+      <p id="first">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas,
+        quisquam. Reprehenderit modi excepturi fuga eos expedita adipisci
+        aspernatur, veniam quaerat vero rem molestias eum ipsum libero
+        quibusdam.
+      </p>
+    </div>
+    <div class="ramesh">
+      <h2 class="boy">Box Model - Margin, Border, Padding, Element</h2>
+      <p id="second">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas,
+        quisquam. Reprehenderit modi excepturi fuga eos expedita adipisci
+        aspernatur, veniam quaerat vero rem molestias eum ipsum libero
+        quibusdam.
+      </p>
+    </div>
+    <div class="ramesh">
+      <h2 class="boy">Box Model - Margin, Border, Padding, Element</h2>
+      <p id="third">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas,
+        quisquam. Reprehenderit modi excepturi fuga eos expedita adipisci
+        aspernatur, veniam quaerat vero rem molestias eum ipsum libero
+        quibusdam.
+      </p>
+    </div>
+  </body>
+</html>
