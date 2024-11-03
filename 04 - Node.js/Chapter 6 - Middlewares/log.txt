@@ -1,0 +1,6 @@
+1730292624487: GET: /api/retrieveData
+1730292701394: DELETE: /api/retrieveData
+1730292723575: POST: /api/retrieveData
+1730292726553: PUT: /api/retrieveData
+1730292729762: PATCH: /api/retrieveData
+1730292732330: GET: /api/retrieveData
