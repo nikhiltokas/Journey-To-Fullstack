@@ -1,0 +1,11 @@
+
+1730309648132: DELETE: /api/retrieveData/1
+1730309688772: DELETE: /api/retrieveData/1
+1730309713522: DELETE: /api/retrieveData/1
+1730309717164: DELETE: /api/retrieveData/4
+1730309819475: DELETE: /api/retrieveData/4
+1730309884528: DELETE: /api/retrieveData/4
+1730309976963: DELETE: /api/retrieveData/4
+1730320694640: DELETE: /api/retrieveData/11
+1730320718830: DELETE: /api/retrieveData/4
+1730321355886: GET: /api/retrieveData/4
